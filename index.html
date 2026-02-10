@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizon JES 2026</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              horizon: {
+                indigo: '#0b1d51',
+                yellow: '#ffde00',
+                royal: '#1c52a0',
+                black: '#0b1d51', // Mapping black to indigo for titles
+                gray: '#4a4a4a',
+                light: '#f8f9fa'
+              }
+            },
+            backgroundImage: {
+              'accent-gradient': 'linear-gradient(90deg, #ffde00, #ffc107)',
+              'royal-gradient': 'linear-gradient(90deg, #1c52a0, #0b1d51)',
+              'hero-overlay': 'linear-gradient(135deg, rgba(28, 82, 160, 0.7) 0%, rgba(11, 29, 81, 0.95) 100%)',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      .gradient-text {
+        background: linear-gradient(90deg, #ffde00, #ffffff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      .animate-fade-in {
+        animation: fadeIn 0.5s ease-out forwards;
+      }
+      
+      @keyframes titleReveal {
+        0% { opacity: 0; transform: translateY(40px); filter: blur(12px); }
+        100% { opacity: 1; transform: translateY(0); filter: blur(0); }
+      }
+      .animate-title-reveal {
+        animation: titleReveal 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+      }
+
+      @keyframes shimmer {
+        0% { background-position: -200% center; }
+        100% { background-position: 200% center; }
+      }
+      .animate-shimmer {
+        background: linear-gradient(90deg, #ffde00 0%, #ffffff 50%, #ffde00 100%);
+        background-size: 200% auto;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: shimmer 4s linear infinite;
+      }
+
+      .btn-primary {
+        background-color: #ffde00;
+        color: #0b1d51;
+        font-weight: 900;
+        transition: transform 0.2s ease;
+      }
+      .btn-primary:hover {
+        transform: scale(1.05);
+      }
+      .btn-secondary {
+        background-color: #1c52a0;
+        color: white;
+        font-weight: 700;
+      }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://esm.sh/@google/genai@^1.38.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-white text-horizon-indigo font-sans">
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
