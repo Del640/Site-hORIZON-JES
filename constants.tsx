@@ -41,6 +41,38 @@ export const PRODUCTS: Product[] = [
     description: "Bandana stylé Horizon JES - L'accessoire indispensable pour l'événement.",
     image: "/bandana_noir.webp",
     whatsappMsg: "Bonjour Horizon JES 2026, Je souhaiterais commander un Bandana Horizon JES à 1.000 FCFA."
+  },
+  {
+    id: 5,
+    name: "Piment de table Vert 500g",
+    price: "1.100 FCFA",
+    description: "Piment frais de table, saveur douce et épicée.",
+    image: "/piment_vert.jpg",
+    whatsappMsg: "Bonjour Horizon JES 2026, Je souhaiterais commander un Piment de table Vert 500g à 1.100 FCFA."
+  },
+  {
+    id: 6,
+    name: "Piment de table rouge 500g",
+    price: "1.100 FCFA",
+    description: "Piment rouge de table, saveur intense et épicée.",
+    image: "/piment_rouge.jpg",
+    whatsappMsg: "Bonjour Horizon JES 2026, Je souhaiterais commander un Piment de table rouge 500g à 1.100 FCFA."
+  },
+  {
+    id: 7,
+    name: "Tomate Yon-na 1KG",
+    price: "1.800 FCFA",
+    description: "Tomate fraîche de qualité supérieure, parfaite pour vos préparations.",
+    image: "/tomate.jpg",
+    whatsappMsg: "Bonjour Horizon JES 2026, Je souhaiterais commander une Tomate Yon-na 1KG à 1.800 FCFA."
+  },
+  {
+    id: 8,
+    name: "Nectar de mangue Yon-na 1L",
+    price: "1.500 FCFA",
+    description: "Nectar de mangue savoureux et rafraîchissant.",
+    image: "/Mangue.jpg",
+    whatsappMsg: "Bonjour Horizon JES 2026, Je souhaiterais commander un Nectar de mangue Yon-na 1L à 1.500 FCFA."
   }
 ];
 
