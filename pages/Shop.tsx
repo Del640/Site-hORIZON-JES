@@ -13,7 +13,7 @@ const Shop: React.FC = () => {
         </p>
         
         {/* Nouveau lien Google Maps au début */}
-        <div className="flex justify-center mb-16">
+        <div className="flex flex-col items-center gap-4 mb-16">
           <a 
             href="https://maps.app.goo.gl/GFZTreFLqHScRXCv9" 
             target="_blank" 
@@ -23,6 +23,10 @@ const Shop: React.FC = () => {
             <i className="fas fa-map-marker-alt text-horizon-yellow text-xl"></i>
             <span>Localiser le point de retrait des articles</span>
           </a>
+          <div className="flex items-center gap-2 text-horizon-indigo font-bold">
+            <i className="fas fa-arrow-down text-2xl text-horizon-yellow"></i>
+            <span>Les articles commandés doivent être retirés à ce point</span>
+          </div>
         </div>
       </div>
 
@@ -58,8 +62,8 @@ const Shop: React.FC = () => {
 
       <div className="bg-horizon-yellow text-horizon-indigo p-12 rounded-sm flex flex-col md:flex-row items-center justify-between gap-10 shadow-2xl">
         <div className="text-left">
-          <h3 className="text-3xl font-black mb-2 uppercase tracking-tighter"><i className="fas fa-shipping-fast mr-3"></i> Livraison & Retrait</h3>
-          <p className="text-horizon-indigo/80 font-bold text-lg">Retrait sur site (Cotonou) ou livraison à domicile.</p>
+          <h3 className="text-3xl font-black mb-2 uppercase tracking-tighter"><i className="fas fa-shipping-fast mr-3"></i> Retrait</h3>
+          <p className="text-horizon-indigo/80 font-bold text-lg">Retrait sur site (Cotonou).</p>
         </div>
         <div className="flex flex-wrap justify-center gap-6">
           <a 
