@@ -45,7 +45,7 @@ const Sponsors: React.FC = () => {
             </ul>
 
             <a 
-              href={`https://wa.me/22995591107?text=Bonjour, je souhaite en savoir plus sur le partenariat ${level.level}.`}
+              href={`https://wa.me/22961517487?text=Bonjour, je souhaite en savoir plus sur le partenariat ${level.level}.`}
               target="_blank"
               rel="noopener noreferrer"
               className={`w-full py-5 rounded-sm font-black text-center text-xl transition-all uppercase tracking-widest shadow-xl active:scale-95 ${
@@ -66,7 +66,7 @@ const Sponsors: React.FC = () => {
           <p className="text-xl text-horizon-gray font-medium">Nous concevons des offres adaptées à vos objectifs de communication et d'image.</p>
         </div>
         <a 
-          href="https://wa.me/22995591107"
+          href="https://wa.me/22961517487"
           className="bg-horizon-indigo text-white px-12 py-5 rounded-sm font-black text-xl hover:bg-horizon-royal transition-all uppercase tracking-widest whitespace-nowrap flex items-center gap-4"
         >
           Contactez-nous <i className="fab fa-whatsapp text-horizon-yellow text-3xl"></i>

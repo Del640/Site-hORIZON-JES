@@ -79,7 +79,7 @@ const Shop: React.FC = () => {
               </div>
               <p className="text-horizon-gray mb-6 text-sm leading-relaxed italic">"{product.description}"</p>
               <a 
-                href={`https://wa.me/22995591107?text=${encodeURIComponent(product.whatsappMsg)}`}
+                href={`https://wa.me/22963621160?text=${encodeURIComponent(product.whatsappMsg)}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-auto block w-full bg-horizon-indigo text-white py-4 rounded-sm font-black text-center hover:bg-horizon-royal transition-all uppercase tracking-widest text-sm shadow-xl"
@@ -115,7 +115,7 @@ const Shop: React.FC = () => {
               </div>
               <p className="text-horizon-gray mb-6 text-sm leading-relaxed italic">"{product.description}"</p>
               <a 
-                href={`https://wa.me/22995591107?text=${encodeURIComponent(product.whatsappMsg)}`}
+                href={`https://wa.me/22963621160?text=${encodeURIComponent(product.whatsappMsg)}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-auto block w-full bg-horizon-indigo text-white py-4 rounded-sm font-black text-center hover:bg-horizon-royal transition-all uppercase tracking-widest text-sm shadow-xl"
@@ -142,7 +142,7 @@ const Shop: React.FC = () => {
           >
             <i className="fas fa-map-marker-alt text-horizon-yellow"></i> Voir sur la carte
           </a>
-          <a href="https://wa.me/22995591107" className="bg-white text-horizon-indigo border-4 border-horizon-indigo px-8 py-4 rounded-sm font-black flex items-center gap-2 hover:bg-horizon-indigo hover:text-white transition-all uppercase shadow-lg">
+          <a href="https://wa.me/22963621160" className="bg-white text-horizon-indigo border-4 border-horizon-indigo px-8 py-4 rounded-sm font-black flex items-center gap-2 hover:bg-horizon-indigo hover:text-white transition-all uppercase shadow-lg">
             <i className="fab fa-whatsapp"></i> WhatsApp
           </a>
         </div>

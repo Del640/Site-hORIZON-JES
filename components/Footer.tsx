@@ -41,11 +41,14 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
         <div>
           <h4 className="text-lg font-black mb-6 uppercase tracking-widest underline decoration-horizon-yellow decoration-4 underline-offset-8">Contact Boutique</h4>
           <div className="space-y-4 text-horizon-indigo font-bold">
-            <a href="tel:+2290156851029" className="flex items-center gap-3 hover:text-horizon-royal transition-colors">
-              <i className="fas fa-phone text-horizon-yellow bg-horizon-indigo p-2 rounded-full"></i> (+229) 01 56 85 10 29
+            <a href="tel:+22963621160" className="flex items-center gap-3 hover:text-horizon-royal transition-colors">
+              <i className="fas fa-phone text-horizon-yellow bg-horizon-indigo p-2 rounded-full"></i> (+229) 63 62 11 60
             </a>
-            <a href="https://wa.me/22995591107" className="flex items-center gap-3 hover:text-horizon-royal transition-colors">
-              <i className="fab fa-whatsapp text-horizon-yellow bg-horizon-indigo p-2 rounded-full"></i> (+229) 95 59 11 07
+            <a href="tel:+22954574591" className="flex items-center gap-3 hover:text-horizon-royal transition-colors">
+              <i className="fas fa-id-card text-horizon-yellow bg-horizon-indigo p-2 rounded-full"></i> (+229) 54 57 45 91
+            </a>
+            <a href="https://wa.me/22961517487" className="flex items-center gap-3 hover:text-horizon-royal transition-colors">
+              <i className="fab fa-whatsapp text-horizon-yellow bg-horizon-indigo p-2 rounded-full"></i> (+229) 61 51 74 87
             </a>
             <p className="text-sm mt-4 text-horizon-gray italic font-normal">Service disponible 7j/7</p>
           </div>

@@ -23,7 +23,7 @@ const Inscription: React.FC = () => {
 - *Téléphone* : ${formData.phone}
 - *Église de Provence* : ${formData.church}`;
 
-    const whatsappUrl = `https://wa.me/22995591107?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/22954574591?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 
